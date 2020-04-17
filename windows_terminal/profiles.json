@@ -9,7 +9,7 @@
   },
   "profiles": [
     {
-      // Make changes here to the powershell.exe profile
+      // POWERSHELL
       "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
       "name": "Windows PowerShell",
       "commandline": "powershell.exe",
@@ -21,19 +21,21 @@
       "hidden": false
     },
     {
-      // Make changes here to the cmd.exe profile
+      // CMD
       "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
       "name": "cmd",
       "commandline": "cmd.exe",
       "hidden": false
     },
     {
+      // AZURE
       "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
       "hidden": false,
       "name": "Azure Cloud Shell",
       "source": "Windows.Terminal.Azure"
     },
     {
+      // GIT BASH
       "guid": "{00000000-0000-0000-ba54-000000000002}",
       "closeOnExit": true,
       "colorScheme": "Dracula",
@@ -50,6 +52,7 @@
       "startingDirectory": "%USERPROFILE%"
     },
     {
+      // WSL
       "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
       "hidden": false,
       "name": "Ubuntu-18.04",
@@ -57,7 +60,8 @@
       "fontFace": "Fira Code",
       "fontSize": 11,
       "colorScheme": "One Half Dark",
-      "cursorShape": "filledBox"
+      "cursorShape": "filledBox",
+      "startingDirectory": "//wsl$/Ubuntu-18.04/home/daniel/"
     }
   ],
   // Add custom color schemes to this array
